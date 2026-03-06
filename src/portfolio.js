@@ -72,10 +72,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-   /* {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },*/
+    {
+      skillName: "laravel",
+      fontAwesomeClassname: "fab fa-laravel"
+    },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -85,7 +85,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "angular",
       fontAwesomeClassname: "fab fa-angular"
     },
    /* {
@@ -126,23 +126,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Universite Iba Der THIAM ",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      subHeader: "Licence en Genie Logiciel",
+      duration: "Fevrier 2021 - Avril 2025",
+      desc: "J'ai suivi des cours sur l'ingénierie logicielle, la sécurité web et les systèmes d'exploitation.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Lycée Malick SY",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "Baccalauréat en science experimentale",
+      duration: "Octobre 2016 - Juillet 2020",
+      desc: "J'ai suivi des cours sur les science physique, mathematique,de la terre, ...",
+      //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -158,11 +158,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -171,32 +171,54 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Développeur",
+      company: "Université Iba Der Thiam, Thiès",
+      companylogo: require("./assets/images/universityLogo.png"),
+      date: "2023 – 2024",
+      desc: "Développement d'applications et de plateformes web pour l'université.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Développement d'une plateforme de gestion de cours et de notes",
+        "Développement d’une application de gestion de stock pour la comptabilité matière",
+        "Création de sites web dynamiques"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Administrateur Système",
+      company: "Université Iba Der Thiam, Thiès",
+      companylogo: require("./assets/images/universityLogo.png"),
+      date: "2023 – 2024",
+      desc: "Gestion et administration des systèmes informatiques de l'université.",
+      descBullets: [
+        "Gestion des sauvegardes avec Veeam Backup",
+        "Administration des serveurs Windows Server"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Gérant",
+      company: "Distribution de boissons et de Cake (PRIMO, LANA, ACE)",
+      companylogo: require("./assets/images/businessLogo.png"),
+      date: "2022 – Présent",
+      desc: "Gestion d'une activité de distribution de boissons et produits alimentaires.",
+      descBullets: [
+        "Gestion de la distribution des produits",
+        "Organisation de la logistique et des livraisons",
+        "Suivi des ventes et des relations clients"
+      ]
+    },
+    {
+      role: "Secrétaire Général & Responsable Communication Digitale",
+      company: "RUE PUBLIC DU CŒUR, Thiès",
+      companylogo: require("./assets/images/associationLogo.png"),
+      date: "2020 – Présent",
+      desc: "Gestion de la communication et de la coordination digitale de l'organisation.",
+      descBullets: [
+        "Supervision de la communication digitale",
+        "Coordination des activités numériques",
+        "Gestion de la présence en ligne et des réseaux sociaux"
+      ]
     }
   ]
 };
@@ -371,9 +393,9 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Vous voulez discuter d'un projet ou simplement dire bonjour ? Ma boîte de réception est ouverte à tous.",
+  number: "+221772995716",
+  email_address: "diaassane604@gmail.com"
 };
 
 // Twitter Section
