@@ -127,7 +127,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Universite Iba Der THIAM ",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/UIDT.png"),
       subHeader: "Licence en Genie Logiciel",
       duration: "Fevrier 2021 - Avril 2025",
       desc: "J'ai suivi des cours sur l'ingénierie logicielle, la sécurité web et les systèmes d'exploitation.",
@@ -138,7 +138,7 @@ const educationInfo = {
     },
     {
       schoolName: "Lycée Malick SY",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/lyceemalicksy.jpg"),
       subHeader: "Baccalauréat en science experimentale",
       duration: "Octobre 2016 - Juillet 2020",
       desc: "J'ai suivi des cours sur les science physique, mathematique,de la terre, ...",
