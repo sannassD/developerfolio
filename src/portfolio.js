@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Assane DIA",
-  title: "Hi all, I'm Saad",
+  title: "Salut, je me nomme Assane",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Un développeur Full Stack passionné 🚀 ayant une expérience dans la création d'applications Web et Mobile avec JavaScript / Reactjs / Nodejs / React Native et d'autres bibliothèques et frameworks sympas."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
