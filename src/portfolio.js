@@ -26,7 +26,7 @@ const greeting = {
     "Un développeur Full Stack passionné 🚀 ayant une expérience dans la création d'applications Web et Mobile avec Laravel / Angular / Python / Reactjs  et d'autres bibliothèques et frameworks sympas."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1_ocyfjF45ZUcEcebpF-PHU0W6gOAdBgd/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1_ocyfjF45ZUcEcebpF-PHU0W6gOAdBgd/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
