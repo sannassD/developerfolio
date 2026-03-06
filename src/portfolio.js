@@ -23,23 +23,23 @@ const greeting = {
   username: "Assane DIA",
   title: "Salut, je me nomme Assane",
   subTitle: emoji(
-    "Un développeur Full Stack passionné 🚀 ayant une expérience dans la création d'applications Web et Mobile avec JavaScript / Reactjs / Nodejs / React Native et d'autres bibliothèques et frameworks sympas."
+    "Un développeur Full Stack passionné 🚀 ayant une expérience dans la création d'applications Web et Mobile avec Laravel / Angular / Python / Reactjs  et d'autres bibliothèques et frameworks sympas."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1_ocyfjF45ZUcEcebpF-PHU0W6gOAdBgd/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
+  github: "https://github.com/sannassD",
+  linkedin: "https://www.linkedin.com/in/assane-dia-/",
+  gmail: "diaassane604@gmail.com",
+  //gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  //medium: "https://medium.com/@saadpasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +48,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Ce que je fais",
+  subTitle: "DÉVELOPPEUR FULL STACK FOU QUI VEUT EXPLORER TOUS LES TECH STACKS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Développez des interfaces utilisateur / front-ends hautement interactifs pour vos applications web et mobiles"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Applications Web Progressives (PWA) dans les piles normales et SPA"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Intégration de services tiers pour les hebergements"
     )
   ],
 
@@ -72,10 +72,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
+   /* {
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
-    },
+    },*/
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -86,12 +86,12 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "fab fa-angular"
     },
-    {
+   /* {
       skillName: "swift",
       fontAwesomeClassname: "fab fa-swift"
-    },
+    },*/
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -104,18 +104,18 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-    {
+   /* {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
+    },*/
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    {
+    /*{
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    }*/
   ],
   display: true // Set false to hide this section, defaults to true
 };
