@@ -198,7 +198,7 @@ const workExperiences = {
     },
     {
       role: "Gérant",
-      company: "Distribution de boissons et de Cake (PRIMO, LANA, ACE)",
+      company: "Distribution de boissons "/n/"et de Cake (PRIMO, LANA, ACE)",
       companylogo: require("./assets/images/PRIMO.png"),
       date: "2022 – Présent",
       desc: "Gestion d'une activité de distribution de boissons et produits alimentaires.",
