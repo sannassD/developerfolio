@@ -175,7 +175,7 @@ const workExperiences = {
   experience: [
     {
       role: "Développeur",
-      company: "Université Iba Der Thiam, Thiès",
+      company: "Université Iba Der Thiam",
       companylogo: require("./assets/images/UIDT.png"),
       date: "2023 – 2024",
       desc: "Développement d'applications et de plateformes web pour l'université.",
@@ -187,7 +187,7 @@ const workExperiences = {
     },
     {
       role: "Administrateur Système",
-      company: "Université Iba Der Thiam, Thiès",
+      company: "Université Iba Der Thiam",
       companylogo: require("./assets/images/UIDT.png"),
       date: "2023 – 2024",
       desc: "Gestion et administration des systèmes informatiques de l'université.",
@@ -198,8 +198,7 @@ const workExperiences = {
     },
     {
       role: "Gérant",
-      company: "Distribution de boissons" 
-                "et de Cake (PRIMO, LANA, ACE)",
+      company: "Boissons et Cake (PRIMO, LANA, ACE)",
       companylogo: require("./assets/images/PRIMO.png"),
       date: "2022 – Présent",
       desc: "Gestion d'une activité de distribution de boissons et produits alimentaires.",
@@ -211,7 +210,7 @@ const workExperiences = {
     },
     {
       role: "Secrétaire Général & Responsable Communication Digitale",
-      company: "RUE PUBLIC DU CŒUR, Thiès",
+      company: "RUE PUBLIC DU CŒUR",
       companylogo: require("./assets/images/RPC.jpeg"),
       date: "2020 – Présent",
       desc: "Gestion de la communication et de la coordination digitale de l'organisation.",
