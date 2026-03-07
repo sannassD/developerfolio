@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Assane DIA",
-  title: "Salut, je me nomme Assane",
+  title: "Salut, je suis Assane",
   subTitle: emoji(
     "Un développeur Full Stack passionné 🚀 ayant une expérience dans la création d'applications Web et Mobile avec Laravel / Angular / Python / Reactjs  et d'autres bibliothèques et frameworks sympas."
   ),
@@ -176,7 +176,7 @@ const workExperiences = {
     {
       role: "Développeur",
       company: "Université Iba Der Thiam, Thiès",
-      //companylogo: require("./assets/images/universityLogo.png"),
+      companylogo: require("./assets/images/UIDT.png"),
       date: "2023 – 2024",
       desc: "Développement d'applications et de plateformes web pour l'université.",
       descBullets: [
@@ -188,7 +188,7 @@ const workExperiences = {
     {
       role: "Administrateur Système",
       company: "Université Iba Der Thiam, Thiès",
-      //companylogo: require("./assets/images/universityLogo.png"),
+      companylogo: require("./assets/images/UIDT.png"),
       date: "2023 – 2024",
       desc: "Gestion et administration des systèmes informatiques de l'université.",
       descBullets: [
@@ -199,7 +199,7 @@ const workExperiences = {
     {
       role: "Gérant",
       company: "Distribution de boissons et de Cake (PRIMO, LANA, ACE)",
-      //companylogo: require("./assets/images/businessLogo.png"),
+      companylogo: require("./assets/images/primo.png"),
       date: "2022 – Présent",
       desc: "Gestion d'une activité de distribution de boissons et produits alimentaires.",
       descBullets: [
@@ -211,7 +211,7 @@ const workExperiences = {
     {
       role: "Secrétaire Général & Responsable Communication Digitale",
       company: "RUE PUBLIC DU CŒUR, Thiès",
-      //companylogo: require("./assets/images/associationLogo.png"),
+      companylogo: require("./assets/images/RPC.jpeg"),
       date: "2020 – Présent",
       desc: "Gestion de la communication et de la coordination digitale de l'organisation.",
       descBullets: [
