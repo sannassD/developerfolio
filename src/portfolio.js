@@ -36,11 +36,12 @@ const socialMediaLinks = {
   github: "https://github.com/sannassD",
   linkedin: "https://www.linkedin.com/in/assane-dia-/",
   gmail: "diaassane604@gmail.com",
+  Instagram: "https://www.instagram.com/sann.diah/",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
   //medium: "https://medium.com/@saadpasta",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  Instagram: "https://www.instagram.com/sann.diah/",
+  
   //Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
