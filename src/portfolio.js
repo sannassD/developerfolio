@@ -249,6 +249,18 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
+     {
+      image: require("./assets/images/SET.jpeg"),
+      projectName: "StockSET",
+      projectDesc: "Application de gestion de stock matiere avec Laravel API et Angular.",
+      footerLink: [
+        {
+          name: "visiter le depot",
+          url: "https://github.com/sannassD/Gestion-de-stock-matiere.git"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/educationsn.webp"),
       projectName: "BFEEM",
@@ -322,7 +334,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
