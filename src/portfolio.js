@@ -154,11 +154,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "80%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Programming",
@@ -234,8 +234,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Grands Projets",
+  subtitle: "Certaines startups et entreprises que j'ai aidées à créer leur technologie",
   projects: [
     {
       image: require("./assets/images/logo.png"),
@@ -340,25 +340,62 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Apprentissage & Ressources",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "Quelques technologies et ressources que j'utilise pour améliorer mes compétences en développement logiciel.",
+  displayMediumBlogs: "false",
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://laravel.com/docs",
+      title: "Laravel Documentation",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Documentation officielle que j'utilise pour développer des APIs et applications web avec Laravel."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://angular.io/docs",
+      title: "Angular Framework",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Framework frontend puissant que j'utilise pour développer des applications web dynamiques."
+    },
+    {
+      url: "https://react.dev/",
+      title: "React",
+      description:
+        "Bibliothèque JavaScript que j'utilise pour créer des interfaces utilisateur modernes et interactives."
+    },
+    {
+      url: "https://www.djangoproject.com/",
+      title: "Django Framework",
+      description:
+        "Framework Python que j'utilise pour développer des applications web sécurisées et performantes."
+    },
+    {
+      url: "https://dev.mysql.com/doc/",
+      title: "MySQL Database",
+      description:
+        "Système de gestion de base de données relationnelle utilisé dans mes projets web."
+    },
+    {
+      url: "https://getbootstrap.com/docs/",
+      title: "Bootstrap",
+      description:
+        "Framework CSS que j'utilise pour créer des interfaces web modernes et responsive."
+    },
+    {
+      url: "https://git-scm.com/doc",
+      title: "Git & GitHub",
+      description:
+        "Outils de gestion de version que j'utilise pour collaborer et gérer mes projets."
+    },
+    {
+      url: "https://docs.docker.com/",
+      title: "Docker",
+      description:
+        "Technologie de conteneurisation que j'utilise pour déployer et gérer les applications."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
+};
 };
 
 // Talks Sections
